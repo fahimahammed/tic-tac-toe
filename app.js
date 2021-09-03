@@ -79,6 +79,10 @@ const handleCellClick = (e) => {
     const cellIndex = parseInt(clickedCell.getAttribute('data-cell-index'));
     // console.log(cellIndex);
 
+    if (gameState[cellIndex] !== "" || !gameActive) {
+        return;
+    }
+
     handleCellPlayed(clickedCell, cellIndex);
     handleResultValidation();
 
