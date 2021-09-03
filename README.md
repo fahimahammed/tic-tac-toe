@@ -1,1 +1,5 @@
-# tic-tac-toe
+# Tic Tac Toe Game
+
+#### Programming Language: JavaScript
+
+
