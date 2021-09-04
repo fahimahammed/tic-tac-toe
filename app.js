@@ -1,4 +1,6 @@
 const gameStatus = document.querySelector('.game-status');
+
+//game condition
 const winCondition = [
     [0, 1, 2],
     [3, 4, 5],
